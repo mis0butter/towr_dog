@@ -268,7 +268,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = r'/home/junette/catkin_ws/devel_isolated/towr;/home/junette/catkin_ws/devel_isolated/spot_viz;/home/junette/catkin_ws/devel_isolated/spot_msgs;/home/junette/catkin_ws/devel_isolated/spot_driver;/home/junette/catkin_ws/devel_isolated/spot_description;/home/junette/catkin_ws/devel_isolated/r2d2;/home/junette/catkin_ws/devel_isolated/ifopt;/home/junette/catkin_ws/devel;/opt/ros/melodic'.split(';')
+            CMAKE_PREFIX_PATH = r'/home/junette/catkin_ws/devel_isolated/towr;/home/junette/catkin_ws/devel_isolated/r2d2;/home/junette/catkin_ws/devel_isolated/ifopt;/home/junette/catkin_ws/devel;/opt/ros/melodic'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []

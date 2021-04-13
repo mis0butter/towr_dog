@@ -5,7 +5,7 @@
 if [ -z "$CATKIN_SHELL" ]; then
   CATKIN_SHELL=sh
 fi
-. "/home/junette/catkin_ws/devel_isolated/spot_viz/setup.$CATKIN_SHELL"
+. "/home/junette/catkin_ws/devel_isolated/r2d2/setup.$CATKIN_SHELL"
 
 # detect if running on Darwin platform
 _UNAME=`uname -s`
