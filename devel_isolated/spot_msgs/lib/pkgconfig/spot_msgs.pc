@@ -1,0 +1,8 @@
+prefix=/home/junette/catkin_ws/devel_isolated/spot_msgs
+
+Name: spot_msgs
+Description: Description of spot_msgs
+Version: 0.0.0
+Cflags: -I/home/junette/catkin_ws/devel_isolated/spot_msgs/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime actionlib

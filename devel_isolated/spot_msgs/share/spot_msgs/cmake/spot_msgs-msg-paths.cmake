@@ -1,0 +1,4 @@
+# generated from genmsg/cmake/pkg-msg-paths.cmake.develspace.in
+
+set(spot_msgs_MSG_INCLUDE_DIRS "/home/junette/catkin_ws/src/spot_ros/spot_msgs/msg;/home/junette/catkin_ws/devel_isolated/spot_msgs/share/spot_msgs/msg")
+set(spot_msgs_MSG_DEPENDENCIES std_msgs;geometry_msgs;actionlib_msgs)
